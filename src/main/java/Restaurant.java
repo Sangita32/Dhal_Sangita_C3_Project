@@ -70,12 +70,13 @@ public class Restaurant {
         return name;
     }
 
-    /* public int getOrderValue(List<String> item){
+     // TDD case
+     public int getOrderValue(List<String> item){
         int totalValue = 0;
         for (String myItem : item) {
             totalValue += findItemByName(myItem).getPrice();
         }
         return totalValue;
-    } */
+    }
 
 }
